@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
         fprintf(stderr, "database-name\\0table-name\\0column-name\\0\n");
         fprintf(stderr, "The database, table, and column names are encoded in UTF-8.\n");
         fprintf(stderr, "If a column is an expression, \\0\\0\\0 will be output.\n\n");
-        fprintf(stderr, "To get the version of program, use: \"%s --version\".\n", argv[0]);
+        fprintf(stderr, "To get the version of the program, use: \"%s --version\".\n", argv[0]);
         return 1;
     }
 
